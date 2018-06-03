@@ -1,0 +1,11 @@
+
+{%extends 'appTwo/base.html'%}
+
+
+{%block body_block%}
+    <h1>Welcome!</h1>
+    <h2>Go to /users to see the list of user information!</h2>
+    <h1>{{text|cut:'he'}}</h1>
+    {{number|add:'40'}}
+
+{%endblock%}
